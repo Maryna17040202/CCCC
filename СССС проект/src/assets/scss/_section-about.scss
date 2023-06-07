@@ -1,0 +1,40 @@
+.section-about {
+    background-color: #80766e;
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.about-left {
+    border-right:calc($size-main/5) solid $color-blue;
+    font-size: $size-main+18px;
+    font-family: $font-second;
+    padding: {
+        top: $size-main*6;
+        left: $size-main*6;
+        right: $size-main*6;
+        bottom: $size-main;
+    }
+    h2 {
+        font-family: $font-main;
+        font-size: $size-main*5;
+        margin: {
+            top: $size-zero;
+            bottom: $size-main*3;
+        }
+    }
+
+}
+
+.img-responsive {
+    display: block;
+    max-width: $size-width*1.3%;
+    height: auto;
+}
+.about-right {
+    padding: {
+        top: $size-main*7;
+        left: $size-main*5;
+        right: $size-main*3;
+        bottom: $size-main;
+    };
+}
